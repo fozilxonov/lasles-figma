@@ -1,0 +1,129 @@
+.plan {
+    background: linear-gradient(180deg, #F8F8F8 -45.04%, rgba(248, 248, 248, 0.00) 88.56%);
+    padding-top: 80px;
+    margin-top: 130px;
+}
+
+.plan__subtitle {
+    color: #0B132A;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    /* 142.857% */
+}
+
+.plan__subtext {
+
+    margin-top: 20px;
+    color: #4F5665;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 187.5% */
+}
+
+.plan__row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 60px;
+    
+}
+
+.plan__col {
+    width: 330px;
+    height: 760px;
+    border-radius: 10px;
+    border: 2px solid #DDD;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+
+    .plan__toptitle {
+        margin-top: 30px;
+        color: #0B132A;
+        text-align: center;
+        font-family: Rubik;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        /* 166.667% */
+    }
+
+
+}
+
+.plan__menu {
+    height: 200px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .plan__li {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+.bot__title {
+    margin-top: 50px;
+    color: #0B132A;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    /* 120% */
+}
+
+.plan__btn {
+    margin-top: 20px;
+    color: #F53838;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 13px 63px;
+    border-radius: 50px;
+    border: 2px solid #F53838;
+    background: #fff;
+}
+
+.plan__btn__active {
+    margin-top: 20px;
+    color: #fff;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 13px 63px;
+    border-radius: 50px;
+    border: 2px solid #F53838;
+    background: #F53838;
+    box-shadow:0px 12px 20px 0px rgba(245, 56, 56, 0.35);
+    
+}
+
+.active-2 {
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}

@@ -1,0 +1,67 @@
+.footer {
+    background: #F8F8F8;
+    padding-top: 200px;
+    margin-top: 180px;
+    padding-bottom: 100px;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__row-1 {
+    display: flex;
+    gap: 150px;
+}
+
+.footer__word {
+    margin-top: 20px;
+    width: 340px;
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+    .activ {
+        color: #4F5665;
+        font-family: Rubik;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        /* 187.5% */
+    }
+}
+
+.footer__btns {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: -18px;
+}
+
+.final {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: #AFB5C0;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 187.5% */
+
+    .vpn {
+        color: #AFB5C0;
+        font-family: Rubik;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+    }
+}
